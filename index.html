@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="data:,">
+</head>
+
+<body>
+    <div class="container">
+        <div class="parte-acima">
+            <div class="setas">
+                <img class="posicao-setas" src="img/Vector (1).svg" alt="">
+                <div class="incone.laranja">
+                    <img class="posicao-icone-laranja" src="img/download.png.svg" alt="">
+                </div>
+            </div>
+            <div class="menu">
+                <img src="img/menu.png" alt="">
+            </div>
+            <div class="home">
+                <img class="posicao-home"
+                    src="img/3766030-propriedade-compra-linear-icone-casa-com-cifrao-dentro-linha-fina-ilustracao-real-mercado-mercado-contorno-simbolo-isolado-esboco-desenho-vetor.jpg"
+                    fill="#3333" alt="">
+            </div>
+            <div class="pontinhos">
+                <img class="posicao-pontinhos" src="img/Untitled (1).png" alt="">
+            </div>
+        </div>
+
+        <div class="parte-meio">
+            <div class="teste">
+                <span id="teste1"></span>
+                <input class="input-numero" onchange="preview()" type="text" name="" id="conta">
+            </div>
+            <div>
+                <input class="input-resultado" value="" type="text" name="" id="pre-resultado">
+            </div>
+        </div>
+
+        <div class="parte-final">
+
+            <div id="botoes-calculadora">
+                <button id="clean" class="cor-laranja">C</button>
+                <button id="erase" class="botao-imagem"><img src="img/Group.svg" alt=""></button>
+                <button id="percent" value="%" class="cor-laranja">%</button>
+                <button id="divisao" value="/" class="cor-laranja">÷</button>
+                <button id="sete" value="7" class="sompra-numero">7</button>
+                <button id="oito" value="8" class="sompra-numero">8</button>
+                <button id="nove" value="9" class="sompra-numero">9</button>
+                <button id="multiplicacao" value="X" class="cor-laranja">X</button>
+                <button id="quatro" value="4" class="sompra-numero">4</button>
+                <button id="cinco" value="5" class="sompra-numero">5</button>
+                <button id="seis" value="6" class="sompra-numero">6</button>
+                <button id="subtracao" value="-" class="cor-laranja">-</button>
+                <button id="um" value="1" class="sompra-numero">1</button>
+                <button id="dois" value="2" class="sompra-numero">2</button>
+                <button id="tres" value="3" class="sompra-numero">3</button>
+                <button id="adicao" value="+" class="cor-laranja">+</button>
+                <button id="cientifica" class="botao-imagem"><img src="img/Vecto (1).svg" alt=""></button>
+                <button id="zero" value="0" class="sompra-numero">0</button>
+                <button id="virgula" value="." class="botao-imagem">,</button>
+                <button id="resultado" class="botao-laranja">=</button>
+
+            </div>
+        </div>
+    </div>
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
